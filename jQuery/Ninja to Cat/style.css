@@ -1,0 +1,13 @@
+.container{
+    width: 200px;
+    margin: 50px;
+}
+
+img{
+    width: 181px;
+    height: 50px;
+}
+
+.hide{
+    display: none;
+}

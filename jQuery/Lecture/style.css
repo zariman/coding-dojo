@@ -1,0 +1,32 @@
+*{
+    margin: 10px;
+}
+
+.one{
+    height: 256px;
+    width: 256px;
+    background-color: blue;
+}
+
+.two{
+    height: 256px;
+    width: 256px;
+    background-color: blue;
+}
+
+.three{
+    height: 256px;
+    width: 256px;
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+    height: 256px;
+    width: 256px;
+}
+.green{
+    background-color: green;
+    height: 256px;
+    width: 256px;
+}

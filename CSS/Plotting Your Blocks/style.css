@@ -1,0 +1,89 @@
+/*CSS reset settings here*/
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+   #wrapper{
+    background-color: silver;
+    padding: 10px;
+   }
+   #header{
+    min-height: 150px;
+    width: 100%;
+    background-color: green;
+   }
+   #navigation{
+    min-height: 300px;
+    /* width: 23%; */
+    background-color: blue;
+    display: inline-block;
+    margin: 15px 2% 0 0;
+   }
+   #main_content{
+    min-height: 400px;
+    /* width: 75%; */
+    background-color: red;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 0px 15px 0;
+   }
+   .subcontents{
+    min-height: 200px;
+    /* width: 30%; */
+    background-color: yellow;
+    display: inline-block;
+    margin: 15px 0 0 2.5%;
+   }
+   #advertisement{
+    min-height: 120px;
+    margin-left: 2.5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 95%;  
+    background-color: purple;
+   }
+
+    @media only screen and (max-width: 480px){
+        .sm-0{
+            display: none;
+        }
+        .sm-100{
+            width: 95%;
+        }
+        #navigation{
+            margin: 15px 0 0 0;
+        }
+        #main_content{
+            width: 100%;
+        }
+        
+    }
+    @media only screen and (min-width: 481px){
+        .med-0{
+            display: none;
+        }
+        .med-50{
+            width: 45%;
+        }
+        .med-100{
+            width: 100%;
+        }
+        #navigation{
+            margin: 15px 0 0 0;
+        }
+    }
+    @media only screen and (min-width: 1024px){
+        .lg-23{
+            width: 23%;
+        }
+        .lg-30{
+           width: 30%;
+       }
+       .lg-75{
+           width: 75%
+       }
+       #navigation{
+            margin: 15px 2% 0 0;
+       }
+    }

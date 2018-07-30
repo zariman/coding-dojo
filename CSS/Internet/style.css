@@ -1,0 +1,143 @@
+.container{
+    width: 970px;
+}
+
+.top img{
+    width: 75px;
+    display: inline-block;
+}
+
+.internet{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.internet span{
+    vertical-align: top;
+    color: blue;
+}
+
+.www{
+    margin-top: -15px;
+    margin-bottom: 0;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+.main{
+    background-color: rgb(255, 255, 246);
+}
+
+.left{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+    .left h4, p{
+        margin: 5px 0;
+    }
+    .left a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 10pt;
+        margin: 5px;
+    }
+    .video{
+        background-color: blue;
+    }
+    .more{
+        background-color: orange;
+    }
+    .horiz-line{
+        margin-top: 10px;
+        background-color: black;
+        height: 1px;
+        display: block;
+    }
+    .ad-background{
+        background-image: url("images/ad_background.png");
+        height: 250px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 10px;
+    }
+    .ad-background h3{
+        color: white;
+        text-align: center;
+        padding: 10px;
+        margin: 15px 0 0 0;
+    }
+    .ninja{
+        background-image: url("images/ninja.png");
+        width: 70px;
+        height: 100px;
+        margin-left: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .ad-background a{
+        margin-top: 15px;
+        background-color: teal;
+        text-align: center;
+    }
+
+.right{
+    display: inline-block;
+    width: 760px;
+}
+    .server{
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right-top-left{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .right-top-left p{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+    }
+    .right-top-left :nth-child(3){
+        margin-left: 400px;
+    }
+    .right-top-right {
+        display: inline-block;
+    }
+    .right-top-right *{
+        margin: 0;
+    }
+    .right-top-left img{
+        width: 50px;
+    }
+
+.box{
+    border: 3px solid navy;
+}
+.box *{
+    display: inline-block;
+    vertical-align: top;
+}
+    .textbox{
+        display: inline-block;
+        width: 600px;
+    }
+    .box img{
+        width: 125px;
+        margin: 10px;
+        display: inline-block;
+    }
+    .box p{
+        width: 400px;
+    }
+    .box h3{
+        margin-top: 5px;
+        width: 500px;
+    }

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    text-align: center;
+}
+
+#wrapper{
+    width: 900px;
+    background-color: #d5d2ae;
+    margin: 0px;
+}

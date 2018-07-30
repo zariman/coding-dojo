@@ -1,0 +1,115 @@
+.container{
+    background-color: #245076;
+    width: 970px;
+    min-height: 500px;
+}
+    .python-image{
+        display: inline-block;
+        vertical-align: top;
+    }
+        .python-image img{
+            width: 300px;
+            margin: 10px;
+        }
+
+    .top-right{
+        display: inline-block;
+        margin-left: 400px;
+    }
+    .top-right form{
+        background-color: black;
+        border-radius: 5px;
+        padding: 15px;
+    }
+    .top-right p{
+        color: white;
+        text-align: center;
+        margin: 5px 0;
+    }
+nav{
+    text-align: center;
+}
+nav ul{
+    padding: 10px;
+    background-color: rgb(36, 112, 138);
+    display: inline-block;
+    border-radius: 5px;
+}
+nav ul li{
+    margin: 0px 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20pt;
+}
+
+.sidebar{
+    display: inline-block;
+    color: yellow;
+    vertical-align: top;
+    margin-left: 80px;
+}
+.sidebar ul{
+    text-align: center;
+}
+.sidebar ul li{
+    margin: 8px 0;
+}
+.sidebar a{
+    color: white;
+}
+.field-blue{
+    display: inline-block;
+    width: 600px;
+    text-align: center;
+    margin-left: 20px;
+}
+.field-blue p{
+    color: white;
+}
+
+.field-blue p, .field-blue h3, .field-blue h4{
+    margin: 10px 0;
+}
+.field-blue h3{
+    color: yellow;
+    font-style: italic;
+}
+.field-blue h4{
+    color: white;
+}
+.field-white{
+    background-color:white;
+}
+.field-white h4, p{
+    margin: 5px 0;
+}
+.white-left, .white-right{
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+    border-top: 5px solid blue;
+}
+.white-left{
+    margin-left: 120px;
+    margin-right: 20px;
+}
+.field-white ul li{
+    color: rgb(64, 153, 255);
+}
+
+.bottom ul{
+    text-align: center;
+}
+.bottom ul li{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.bottom p{
+    color: white;
+    font-size: 8px;
+    text-align: center;
+}
+

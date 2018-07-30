@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                secondPic = $(this).attr('alt-src');
+                $(this).attr('src', secondPic);
+            });
+        });
+    </script>
+    <title>Disappearing Ninja</title>
+</head>
+<body>
+    <div class="container">
+        <img src='img/ninja0.png' alt-src=img/cat0.png>
+        <img src='img/ninja1.png' alt-src=img/cat1.png>
+        <img src='img/ninja2.png' alt-src=img/cat2.png>
+        <img src='img/ninja3.png' alt-src=img/cat3.png>
+        <img src='img/ninja4.png' alt-src=img/cat4.png>
+    </div>
+</body>
+</html>

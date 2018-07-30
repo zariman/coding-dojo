@@ -1,0 +1,26 @@
+.container{
+    padding: 20px;
+}
+
+.line{
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+.container h1{
+    margin: 10px 0 10px 200px;
+}
+.container p, input{
+    display: inline-block;
+    margin: 10px 0 10px 50px;
+}
+.container input{
+    width: 300px;
+}
+
+button{
+    box-shadow: 3px 3px;
+}
+
+.red{
+    background-color: red;
+}

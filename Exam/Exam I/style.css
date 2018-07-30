@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    background-color: #1a1a1a;
+    margin: 10px;
+}
+
+.top img{
+    padding: 20px;
+}
+.top h5{
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    margin: 30px 0 0 570px;
+}
+
+.nav ul{
+    background: linear-gradient(#535353, #444444, #242424);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    border-right: 1px solid black;
+}
+    .nav ul li:first-child{
+        margin-left: 10px;
+    }
+    .nav ul li:last-child{
+        border-style: none;
+    }
+    .nav a{
+        text-decoration: none;
+        color: white;
+    }
+
+.main_img{
+    width: 980px;
+    margin: 0 10px;
+}
+
+.col1{
+    padding: 30px 0 30px 10px;
+    margin: 0 10px;
+    border-top: 5px solid #3a3a3a;
+    background-color: rgb(30, 30, 30);
+}
+    .sm-col{
+        display: inline-block;
+        width: 235px;
+        vertical-align: top;
+    }
+        .sm-col img{
+            vertical-align: top;
+        }
+        .sm-col .text{
+            display: inline-block;
+            width: 180px;
+        }
+            .sm-col p{
+                margin-top: 5px;
+            }
+
+.lg-text{
+    color: #0b0b0b;
+    padding: 30px;
+    margin: 10px 0;
+}
+    .lg-text .text{
+        display: inline-block;
+        width: 700px;
+    }
+    .lg-text h3{
+        color: white;
+    }
+    .lg-text button{
+        vertical-align: top;
+        margin: 10px 0 0 120px;
+        border-radius: 5px;
+        background-color: #f08d43;
+        color: white;
+        border-style: none;
+        padding: 10px 20px;
+    }
+.porf_header{
+    padding: 20px;
+    background-color: rgb(30, 30, 30);
+}
+    .porf_header h3{
+        color: white;
+        display: inline-block;
+    }
+    .porf_header a{
+        color: #eb7929;
+        text-decoration: none;
+        margin-left: 740px;
+    }
+
+.col2{
+    margin-left: 13px;
+    padding-bottom: 20px;
+    background-color: rgb(30, 30, 30);
+}
+.col-med{
+    display: inline-block;
+    width: 240px;
+    vertical-align: top;
+}
+    .col-med img{
+        border: 5px solid #363636;
+        display: block;
+        margin: 0 auto;
+    }
+    .col-med .text{
+        margin: 10px 0 0 9.5px;
+    }
+        .col-med p{
+            margin-top: 5px;
+        }
+
+.text{
+    display: inline-block;
+}
+
+.text p{
+    color: white;
+}
+
+.text h4{
+    color: #eb7929;
+}
+
+.bottom{
+    margin: 0 0 0 900px;
+}
+.bottom a{
+    text-decoration: none;
+    color: gray;
+}

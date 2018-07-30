@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <title>jQuery Functions</title>
+
+    <script>
+        $(document).ready(function(){
+            console.log("jQuery is ready");
+            $('.click button').click(function(){
+                $(this).css('background-color', 'red');
+            });
+
+            $('.hide button').click(function(){
+                $('.hide p').hide();
+            });
+
+            $('.show button').click(function(){
+                $('.hide p').show();
+            });
+
+            $('.toggle button').click(function(){
+                $('.toggle p').toggle();
+            });
+
+            $('.slideDown button').click(function(){
+                $('.slideDown p').slideDown('slow');
+            });
+
+            $('.slideUp button').click(function(){
+                $('.slideUp p').slideUp('slow');
+            });
+
+            $('.slideToggle button').click(function(){
+                $('.slideToggle p').slideToggle('slow');
+            });
+
+            $('.fadeIn button').click(function(){
+                $('.fadeIn p').fadeIn('slow');
+            });
+
+            $('.fadeOut button').click(function(){
+                $('.fadeOut p').fadeOut('slow');
+            });
+
+            $('.addClass button').click(function(){
+                $('.addClass p').addClass('red');
+            });
+
+            $('.before button').click(function(){
+                $('.before p').before('<p style="margin-left: 50px">Hello World!</p>');
+            });
+
+            $('.after button').click(function(){
+                $('.after p').after('<p>Hello World!</p>');
+            });
+
+            $('.append button').click(function(){
+                $('.append p').append(' Hello World!');
+            });
+
+            $('.html button').click(function(){
+                $('.html p').html('<strong>Click the button to replace this text with bolded HTML</strong>');
+            });
+
+            $('.attr button').click(function(){
+                var type = $('.attr input').attr('type');
+                console.log(type);
+                $('.attr input').val(type);
+            });
+
+            $('.val button').click(function(){
+                var value = $('.val input').val();
+                $('.val input').val(value.toUpperCase());
+            });
+
+            $('.text button').click(function(){
+                $('.text p').text('Hello World!');
+            });
+        })
+    </script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="click">
+            <h1>Click</h1>
+            <button>Click</button>
+            <p>Click the button to change the color of the button to red</p>
+        </div>
+        <div class="line"></div>
+        <div class="hide">
+            <h1>Hide</h1>
+            <button>Hide</button>
+            <p>Click the button to hide this text</p>
+        </div>
+        <div class="line"></div>
+        <div class="show">
+            <h1>Show</h1>
+            <button>Show</button>
+            <p>Click the button to show the text above</p>            
+        </div>
+        <div class="line"></div>
+        <div class="toggle">
+            <h1>Toggle</h1>
+            <button>Toggle</button>
+            <p>Click the button to toggle on/off this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="slideDown">
+            <h1>SlideDown</h1>
+            <button>SlideDown</button>
+            <p>Click the button to slide down a text to the right</p>
+            <p style="display: none">Hello World!</p>
+        </div>
+        <div class="line"></div>
+        <div class="slideUp">
+            <h1>SlideUp</h1>
+            <button>SlideUp</button>
+            <p>Click the button to slide up this text</p> 
+            <p style="display: none">Hello World!</p>
+        </div>
+        <div class="line"></div>
+        <div class="slideToggle">
+            <h1>SlideToggle</h1>
+            <button>SlideToggle</button>
+            <p>Click the button to toggle slide on/off for this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="fadeIn">
+            <h1>FadeIn</h1>
+            <button>FadeIn</button>
+            <p>Click the button to fade in a text to the right</p> 
+            <p style="display: none">Hello World!</p>
+        </div>
+        <div class="line"></div>
+        <div class="fadeOut">
+            <h1>FadeOut</h1>
+            <button>FadeOut</button>
+            <p>Click the button to fade out this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="addClass">
+            <h1>AddClass</h1>
+            <button>AddClass</button>
+            <p>Click the button to add class 'red' to this paragraph</p> 
+        </div>
+        <div class="line"></div>
+        <div class="before">
+            <h1>Before</h1>
+            <button>Before</button>
+            <p>Click the button to add text before this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="after">
+            <h1>After</h1>
+            <button>After</button>
+            <p>Click the button to add text after this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="append">
+            <h1>Append</h1>
+            <button>Append</button>
+            <p>Click the button to append to this text</p> 
+        </div>
+        <div class="line"></div>
+        <div class="html">
+            <h1>Html</h1>
+            <button>Html</button>
+            <p>Click the button to replace this text with bolded HTML</p> 
+        </div>
+        <div class="line"></div>
+        <div class="attr">
+            <h1>Attr</h1>
+            <button>Attr</button>
+            <input type="text" value="Click the button to find the type of this field">
+        </div>
+        <div class="line"></div>
+        <div class="val">
+            <h1>Val</h1>
+            <button>Val</button>
+            <input type="text" value="Click the button to capitalize the text in this input">
+        </div>
+        <div class="line"></div>
+        <div class="text">
+            <h1>Text</h1>
+            <button>Text</button>
+            <p>Click the button to change this text</p> 
+        </div>
+    </div>
+</body>
+</html>

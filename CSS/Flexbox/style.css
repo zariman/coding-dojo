@@ -1,0 +1,15 @@
+.box *{ 
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.box{
+    display: flex;
+}
+
+.box1{
+    display: flex;
+    align-self: flex-end;
+}

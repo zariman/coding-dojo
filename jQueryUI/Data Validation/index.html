@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".from, .to").datepicker({
+            });
+
+            $("form").submit(function(){
+                return false;
+            });
+            $("#submit").click(function(){
+                var name = $(".name").val();
+                var from = $(".from").val();
+                console.log(name);
+                var to = $(".to").val();
+                if(name == '' || from == '' || to == ''){
+                    $("#dialog-message").html("<p>Error! Fill out all blank fields.</p>");
+                }
+                else{
+                    $("#dialog-message").html("<p>Thanks " + name + "! Your cruise leaves on " + from + " and returns on " + to + "!</p>");
+                }
+                
+                $("#dialog-message").dialog({
+                    modal: true,
+                    buttons: {
+                        Ok: function() {
+                            $( this ).dialog( "close" );
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
+    <style>
+        #dialog-message{
+            display: none;
+        }
+    </style>
+    <title>Data Validation</title>
+</head>
+<body>
+    <H1>Welcome to the Codingdojo plan-a-Cruise!</H1>
+    <form action="/action_page.php">
+        <p><input class="from" type="text" placeholder="From:"></p>
+        <p><input class="to" type="text" placeholder="To:"></p>
+        <p><input class="name" type="text" name="name" value="" placeholder="Name:"></p>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+
+    <div id="dialog-message" title="Alert"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.row{
+    width: 900px;
+}
+
+.img{
+    display: inline-block;
+    background: url("kobe.jpg");
+    width: 200px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+button{
+    margin: 20px;
+}

@@ -1,0 +1,13 @@
+.row{
+    width: 900px;
+}
+
+img{
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+button{
+    margin: 20px;
+}
